@@ -320,7 +320,6 @@ document.getElementById("btn_SubmitDR").onclick = async() =>
   const Discrepancy = document.getElementById("DR_error").value;
 
   console.log("Submitting DR against: "+ContentOwner+" with dicrepancy: "+Discrepancy);
-  document.getElementById("transaction_Status").innerHTML = "Transaction Pending...";
   
   await DRM.methods.submitDR(ContentOwner, Discrepancy).send({from: ethereum.selectedAddress});
   
