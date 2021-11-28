@@ -202,7 +202,7 @@ const DR_ABI = [
     "constant": true
   }
 ];
-const DR_Addr = '0x7044DDfB6a893C8A46DC0105aC995e44ecb1550F';
+const DR_Addr = '0x9Ff7f6d8D8b1Cd70669c11a9D17E327F8268b61D';
 
 //On Page load
 window.addEventListener('load', async() => {
